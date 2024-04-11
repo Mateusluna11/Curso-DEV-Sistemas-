@@ -1,6 +1,6 @@
-3-) Crie uma classe representando os alunos de um determinado curso.
-A classe deve conter os atributos matrícula do aluno, nome, nota da primeira prova, nota da segunda prova e nota da terceira prova.
-Crie metodos para acessar o nome e a media do aluno.
+#3-) Crie uma classe representando os alunos de um determinado curso.
+#A classe deve conter os atributos matrícula do aluno, nome, nota da primeira prova, nota da segunda prova e nota da terceira prova.
+#Crie metodos para acessar o nome e a media do aluno.
 
 class Aluno:
     def __init__(self, matricula, nome, nota1, nota2, nota3):
