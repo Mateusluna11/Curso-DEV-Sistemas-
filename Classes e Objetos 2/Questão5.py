@@ -1,4 +1,4 @@
-5-) Crie uma classe que modele um carro: (a) Atributos: marca, ano e preco. (b) Metodos: mostrar preco e de exibicao dos dados.
+#5-) Crie uma classe que modele um carro: (a) Atributos: marca, ano e preco. (b) Metodos: mostrar preco e de exibicao dos dados.
 
 class Carro:
     def __init__(self, marca, ano, preco):
