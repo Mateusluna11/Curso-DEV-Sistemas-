@@ -1,4 +1,6 @@
-#1-) Crie uma classe que modele uma pessoa:
+#1 Crie uma classe que modele uma pessoa:
+#métodos : mostrar endreço e alterar endereço 
+
 
 class Pessoa:
     def __init__(self, nome, idade, endereco):
