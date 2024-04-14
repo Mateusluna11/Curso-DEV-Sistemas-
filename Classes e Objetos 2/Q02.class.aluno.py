@@ -1,4 +1,4 @@
-#2-) Crie uma classe que modele uma aluno:
+#2-) Crie uma classe que modele um aluno:
 
 class Aluno:
     def __init__(self, nome, matricula, curso):
