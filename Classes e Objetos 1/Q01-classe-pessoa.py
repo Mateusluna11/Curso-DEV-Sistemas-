@@ -1,22 +1,24 @@
 #1 - Crie uma classe que modele um quadrado:
-#atributos : tamanho do lado 
-#metodos: mostrar endereço e alterar endereço 
+#Atributos: Tamanho do lado
+#Métodos: Mudar valor do Lado, Retornar valor do Lado e calcular Área;
 
-class Pessoa:
-    def __init__(self, nome, idade, endereco):
-        self.nome = nome
-        self.idade = idade
-        self.endereco = endereco
+class Quadrado:
+    def __init__(self, lado):
+        self.lado = lado
 
-    def mostrar_endereco(self):
-        print(f"Endereço: {self.endereco}")
+    def mudar_lado(self, novo_lado):
+        self.lado = novo_lado
 
-    def alterar_endereco(self, novo_endereco):
-        self.endereco = novo_endereco
-        print("Endereço alterado com sucesso.")
+    def retornar_lado(self):
+        return self.lado
 
-pessoa = Pessoa(nome="Maria", idade=25, endereco="Rua A, 123")
-pessoa.mostrar_endereco()
+    def calcular_area(self):
+        return self.lado ** 2
 
-pessoa.alterar_endereco("Avenida B, 456")
-pessoa.mostrar_endereco()
+quadrado1 = Quadrado(5)
+print(f"Lado do quadrado: {quadrado1.retornar_lado()}")
+print(f"Área do quadrado: {quadrado1.calcular_area()}")
+
+quadrado1.mudar_lado(7)
+print(f"Novo lado do quadrado: {quadrado1.retornar_lado()}")
+print(f"Nova área do quadrado: {quadrado1.calcular_area()}")
